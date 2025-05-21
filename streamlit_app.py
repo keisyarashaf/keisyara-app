@@ -6,8 +6,8 @@ st.write(
 )
 st.image("e18c3d400063873ec1c8bba9bb46a206.jpg")
 
-st.title("Aplikasi Sederhana")
-st.header("Aplikasi Mengecek Nilai Genap atau Ganjil")
+st. title("Aplikasi Sederhana")
+st. header("Aplikasi Mengecek Nilai Genap atau Ganjil")
 angka = st.number_input("Tulis sebuah angka:", value=0, step=1)
 
 if (angka % 2) == 0:
